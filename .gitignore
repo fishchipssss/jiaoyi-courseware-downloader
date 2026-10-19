@@ -1,0 +1,44 @@
+# Local credentials and browser sessions
+credentials.local.json
+*.local.json
+.env
+.env.*
+!.env.example
+*profile*/
+*.lock
+ui_preferences.json
+
+# Courseware and download reports
+ppt_downloads/
+downloads/
+Week */
+week-*/
+*.ppt
+*.pptx
+*.pdf
+*.part
+download-results.json
+下载结果.txt
+
+# Python and local tools
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+backups/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local UI test output
+assets/menu_qa_*.json
+assets/menu_normal_*.png
+assets/menu_minimum_*.png
+assets/menu_activity.png
+assets/menu_date.png
+assets/menu_login.png
+assets/menu_settings.png
+assets/menu_maximized.png
+assets/course_menu_final.png
+assets/ui_sound_waveforms.png
